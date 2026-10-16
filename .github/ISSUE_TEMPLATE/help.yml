@@ -1,0 +1,27 @@
+name: Get help or report a problem
+description: Help us understand your Onda setup and what happened.
+body:
+  - type: markdown
+    attributes:
+      value: Reports are public. Never include pairing keys, passwords, recordings, room maps, private contact details or precise network/device identifiers.
+  - type: input
+    id: versions
+    attributes:
+      label: Onda and macOS/iOS versions
+      placeholder: Onda 1.1.0 build 88, macOS version
+    validations:
+      required: true
+  - type: textarea
+    id: speakers
+    attributes:
+      label: Speaker models and connections
+      description: Model names and wired, USB, Wi-Fi or Bluetooth. No serial numbers or IP addresses.
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Include the listening mode, what you expected and steps to reproduce.
+    validations:
+      required: true

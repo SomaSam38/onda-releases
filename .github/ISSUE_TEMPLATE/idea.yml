@@ -1,0 +1,10 @@
+name: Share an idea or working setup
+description: Tell us what would help, or which speaker combination works for you.
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea or setup
+      description: Public feedback only. Leave out personal data, pairing codes, room maps and recordings.
+    validations:
+      required: true
