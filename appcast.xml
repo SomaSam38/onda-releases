@@ -5,31 +5,38 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Onda</title>
         <item>
             <title>1.1.0</title>
-            <pubDate>Sat, 17 Oct 2026 12:53:34 +0100</pubDate>
+            <pubDate>Sat, 17 Oct 2026 13:46:42 +0100</pubDate>
             <link>https://onda-sound.sam633419.chatgpt.site</link>
-            <sparkle:version>114</sparkle:version>
+            <sparkle:version>115</sparkle:version>
             <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[Onda for Mac beta 114 tightens automatic updates after an independent Fable review.
+            <description sparkle:format="markdown"><![CDATA[## Speaker levels, right on Listen
 
-- Background downloads wait for you to quit Onda. They do not restart your music.
-- If a call, video or tuning session postpones a manual update, Onda now waits for a fresh Restart to Update click. Ending the session never triggers that restart.
-- Failed or cancelled update sessions clear stale install controls. Background checks postponed by a session retry when idle.
-- Both the update feed and downloads require cryptographic signatures. Release publishing now downloads and verifies the actual public file before updating the feed.
-- Includes the existing Meet, Zoom and FaceTime protection, same-volume speaker restoration, Spotify controls and room tuning.
+Adjust your left and right speakers separately beside the shared volume. A compatible Wi-Fi speaker and added speakers have their relative level controls in the same place. More controls opens the full balance panel.
 
-The final source passed 265 Swift tests (five environment-dependent skips) and four offline publisher security tests. A separate updater-only test app using the final updater source completed a real signed download and explicit install/relaunch, including simulated call protection, without touching the running audio app. Both Mac architectures are included. The app and DMG are Developer ID signed, notarized and stapled.
+- Changing one main speaker preserves the other speaker's native level. The louder main speaker sets the shared volume, and room speakers follow it with their saved offset.
+- Keyboard volume and mute still control the group. Existing speaker setup, tone, room profiles and timing are retained.
+- Speaker adjustments are held during calls, video and room tuning.
+- Reopening Onda after closing its window brings Listen back without restarting playback.
 
-Users on beta 113 can receive this through Onda. It installs on normal quit, or when you explicitly choose Restart to Update while idle. Users on beta 112 or earlier need one manual download to enable automatic updates. Saved speaker settings and room measurements are retained. Finish calls before intentionally quitting or restarting the audio app.
+You can use Onda on the Mac without an iPhone: select outputs, adjust levels, bass and treble, and use estimated/manual timing. New measured acoustic timing and room EQ need the iPhone companion and the supported Studio Display setup. The iPhone companion is separate and is not included in this Mac download.
 
-Universal Apple silicon and Intel app; macOS 14+ (Spotify sharing requires 14.2+). This remains a beta; fresh-machine driver installation and generic-output compatibility retain the limits described on the website. Onda Room for iPhone is still awaiting Apple review.
+## Install and update
 
-[Setup and support](https://onda-sound.sam633419.chatgpt.site/support/) · [Privacy](https://onda-sound.sam633419.chatgpt.site/privacy/)
+Universal Apple silicon and Intel download for macOS 14 or later; Spotify sharing needs macOS 14.2. Signed with Developer ID, notarized by Apple and stapled. The bundled audio driver is unchanged; these controls do not require a driver update.
+
+Beta 113 and 114 users receive this through Onda's signed automatic-update feed. Updates download quietly and install on normal quit. You can also choose Check for Updates in Settings. Calls, video and tuning postpone checks; a deferred manual restart requires a fresh click when idle. Beta 112 or earlier needs one manual installation to enable automatic updates.
+
+This is a public beta. Generic speaker groups use estimated/manual timing; measured EQ and acoustic sync still require the supported Studio Display/Sonos topology.
+
+## Verification
+
+The source test run passed 268 Swift tests with zero failures and five environment-dependent skips; 26 final focused tests passed. Live checks covered individual speaker controls, shared volume, retained settings and window reopening during playback. Four publication-verifier regressions pass with Python optimizations enabled. Release validation checks both architectures, signatures, notarization, stapled tickets and the actual public download before updating the signed feed. No new acoustic calibration or live call test was performed for this UI-only release.
 ]]></description>
-            <enclosure url="https://github.com/SomaSam38/onda-releases/releases/download/v1.1.0-beta.114/Onda-1.1.0-beta.114-universal.dmg" length="6480697" type="application/octet-stream" sparkle:edSignature="RJZhvZ+VPU+EauY60jTlxeA19WGceBEEh1YpGyY9DWj1KihFXasjT2PaBQJapFb5nZMfX+te/T7moV4XkHcuAw=="></enclosure>
+            <enclosure url="https://github.com/SomaSam38/onda-releases/releases/download/v1.1.0-beta.115/Onda-1.1.0-beta.115-universal.dmg" length="6529024" type="application/octet-stream" sparkle:edSignature="RSiNUWUNQKhLJ+coeQqqMdwJElxCgyILUqSiceqe3akqXIMqf61sGrvQOjz3WBxjDOTkGpbVNjUdLAEaLjNyCQ=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: Q2+U6yflBpyhjCyl7iSwXygDHZ1D5m1VCfdOqjWiog42DGZrMfjSHnsdTzpkMRv6Z3vGvkleHfWuTitM0ix5Aw==
-length: 3148
+edSignature: 1c0JM3ClsuoB6RERwalxYfJs5awFaPnIvc6gO5qf1mS7RBCnU0p2edhaMYS2Bn78Cb+W3G6u+rsSk2p3S9WtCg==
+length: 3615
 -->
