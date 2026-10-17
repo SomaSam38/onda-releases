@@ -1,0 +1,33 @@
+<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Onda</title>
+        <item>
+            <title>1.1.0</title>
+            <pubDate>Sat, 17 Oct 2026 12:14:51 +0100</pubDate>
+            <link>https://onda-sound.sam633419.chatgpt.site</link>
+            <sparkle:version>113</sparkle:version>
+            <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[Onda for Mac beta 113 adds signed automatic updates with Sparkle 2.10.
+
+- Onda checks for updates daily and downloads them in the background by default. Downloaded updates install when you quit Onda; it does not restart your music on its own.
+- Settings includes automatic-update controls, Check for Updates, and an explicit Restart to Update action when a background download is ready.
+- Calls, video playback, room tuning and audio setup postpone update checks and requested restarts.
+- Both the update feed and archive are cryptographically signed. The app and DMG are Developer ID signed, Apple-notarized and stapled. System-profile reporting is disabled.
+- Includes all beta 112 call protection, same-volume restoration, Wi-Fi speaker reconnection and Spotify scripting fixes.
+
+**One-time upgrade:** users on beta 112 or earlier need to download this version once, quit Onda, replace it in Applications and reopen it. Saved speaker settings and room measurements are retained. After this upgrade, future published fixes can arrive through Onda without downloading and replacing the app manually.
+
+Universal Apple silicon and Intel app; macOS 14+ (Spotify sharing requires 14.2+). No Xcode or GitHub account is needed to download. This is a beta; generic speaker hardware and fresh-machine driver installation remain subject to the compatibility limits on the website. The Mac app works without Onda Room for iPhone, which is still awaiting Apple review.
+
+[Setup and support](https://onda-sound.sam633419.chatgpt.site/support/) · [Privacy](https://onda-sound.sam633419.chatgpt.site/privacy/)
+]]></description>
+            <enclosure url="https://github.com/SomaSam38/onda-releases/releases/download/v1.1.0-beta.113/Onda-1.1.0-beta.113-universal.dmg" length="6479900" type="application/octet-stream" sparkle:edSignature="cWVAuMR/USZaNxXOXvo5kuSGr3rPxSU8Qvf+1xgcsDA33vxgmq4GAcNDJpyoyyd1h8XN88VNiy/mK9VQTAhlAg=="></enclosure>
+        </item>
+    </channel>
+</rss><!-- sparkle-signatures:
+edSignature: sDXozyedbV9F/8K6FS8wfoZQbTL1JtxhZereC5G6/N1oT5U8Tu/vccG328pP4tmG8ElaKco7JscX3mzB6vTkDg==
+length: 2811
+-->
