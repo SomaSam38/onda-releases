@@ -5,29 +5,31 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Onda</title>
         <item>
             <title>1.1.0</title>
-            <pubDate>Sat, 17 Oct 2026 12:14:51 +0100</pubDate>
+            <pubDate>Sat, 17 Oct 2026 12:53:34 +0100</pubDate>
             <link>https://onda-sound.sam633419.chatgpt.site</link>
-            <sparkle:version>113</sparkle:version>
+            <sparkle:version>114</sparkle:version>
             <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[Onda for Mac beta 113 adds signed automatic updates with Sparkle 2.10.
+            <description sparkle:format="markdown"><![CDATA[Onda for Mac beta 114 tightens automatic updates after an independent Fable review.
 
-- Onda checks for updates daily and downloads them in the background by default. Downloaded updates install when you quit Onda; it does not restart your music on its own.
-- Settings includes automatic-update controls, Check for Updates, and an explicit Restart to Update action when a background download is ready.
-- Calls, video playback, room tuning and audio setup postpone update checks and requested restarts.
-- Both the update feed and archive are cryptographically signed. The app and DMG are Developer ID signed, Apple-notarized and stapled. System-profile reporting is disabled.
-- Includes all beta 112 call protection, same-volume restoration, Wi-Fi speaker reconnection and Spotify scripting fixes.
+- Background downloads wait for you to quit Onda. They do not restart your music.
+- If a call, video or tuning session postpones a manual update, Onda now waits for a fresh Restart to Update click. Ending the session never triggers that restart.
+- Failed or cancelled update sessions clear stale install controls. Background checks postponed by a session retry when idle.
+- Both the update feed and downloads require cryptographic signatures. Release publishing now downloads and verifies the actual public file before updating the feed.
+- Includes the existing Meet, Zoom and FaceTime protection, same-volume speaker restoration, Spotify controls and room tuning.
 
-**One-time upgrade:** users on beta 112 or earlier need to download this version once, quit Onda, replace it in Applications and reopen it. Saved speaker settings and room measurements are retained. After this upgrade, future published fixes can arrive through Onda without downloading and replacing the app manually.
+The final source passed 265 Swift tests (five environment-dependent skips) and four offline publisher security tests. A separate updater-only test app using the final updater source completed a real signed download and explicit install/relaunch, including simulated call protection, without touching the running audio app. Both Mac architectures are included. The app and DMG are Developer ID signed, notarized and stapled.
 
-Universal Apple silicon and Intel app; macOS 14+ (Spotify sharing requires 14.2+). No Xcode or GitHub account is needed to download. This is a beta; generic speaker hardware and fresh-machine driver installation remain subject to the compatibility limits on the website. The Mac app works without Onda Room for iPhone, which is still awaiting Apple review.
+Users on beta 113 can receive this through Onda. It installs on normal quit, or when you explicitly choose Restart to Update while idle. Users on beta 112 or earlier need one manual download to enable automatic updates. Saved speaker settings and room measurements are retained. Finish calls before intentionally quitting or restarting the audio app.
+
+Universal Apple silicon and Intel app; macOS 14+ (Spotify sharing requires 14.2+). This remains a beta; fresh-machine driver installation and generic-output compatibility retain the limits described on the website. Onda Room for iPhone is still awaiting Apple review.
 
 [Setup and support](https://onda-sound.sam633419.chatgpt.site/support/) · [Privacy](https://onda-sound.sam633419.chatgpt.site/privacy/)
 ]]></description>
-            <enclosure url="https://github.com/SomaSam38/onda-releases/releases/download/v1.1.0-beta.113/Onda-1.1.0-beta.113-universal.dmg" length="6479900" type="application/octet-stream" sparkle:edSignature="cWVAuMR/USZaNxXOXvo5kuSGr3rPxSU8Qvf+1xgcsDA33vxgmq4GAcNDJpyoyyd1h8XN88VNiy/mK9VQTAhlAg=="></enclosure>
+            <enclosure url="https://github.com/SomaSam38/onda-releases/releases/download/v1.1.0-beta.114/Onda-1.1.0-beta.114-universal.dmg" length="6480697" type="application/octet-stream" sparkle:edSignature="RJZhvZ+VPU+EauY60jTlxeA19WGceBEEh1YpGyY9DWj1KihFXasjT2PaBQJapFb5nZMfX+te/T7moV4XkHcuAw=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: sDXozyedbV9F/8K6FS8wfoZQbTL1JtxhZereC5G6/N1oT5U8Tu/vccG328pP4tmG8ElaKco7JscX3mzB6vTkDg==
-length: 2811
+edSignature: Q2+U6yflBpyhjCyl7iSwXygDHZ1D5m1VCfdOqjWiog42DGZrMfjSHnsdTzpkMRv6Z3vGvkleHfWuTitM0ix5Aw==
+length: 3148
 -->
