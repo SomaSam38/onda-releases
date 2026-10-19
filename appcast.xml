@@ -5,43 +5,38 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Onda</title>
         <item>
             <title>1.1.0</title>
-            <pubDate>Sat, 17 Oct 2026 14:12:06 +0100</pubDate>
+            <pubDate>Mon, 19 Oct 2026 12:56:21 +0100</pubDate>
             <link>https://onda-sound.sam633419.chatgpt.site</link>
-            <sparkle:version>116</sparkle:version>
+            <sparkle:version>119</sparkle:version>
             <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Set up your sound, right on your Mac
+            <description sparkle:format="markdown"><![CDATA[# Onda for Mac 1.1.0 beta 119
 
-Onda now guides you through four short steps: main speakers, a left/right sound check, optional room speakers, and your sound. An iPhone is optional.
+## Bluetooth listening and speaker balance
 
-- Choose one stereo device or a left and right pair. Your existing speaker choices are kept.
-- Play each side when ready, swap if needed, and adjust the shared volume.
-- Add connected Bluetooth, Wi-Fi or USB room outputs, or skip this step. Room speakers join Spotify music; connection help opens macOS settings only when you choose it.
-- Choose Balanced, Warm or Clear, then adjust bass, treble and speaker levels. Undo sound changes restores the music preferences from before your first adjustment.
-- Finish later and continue from the saved step. Applied choices stay saved. Setup is available again from Speakers.
+- Include a Bluetooth speaker alongside your main outputs in Room Fill, with a saved independent level. Added-speaker adjustment now runs from −24 to +12 dB, with the existing full-scale output cap and EQ headroom retained.
+- Desk uses your main speakers for responsive Spotify playback. Room Fill includes saved room speakers; Bluetooth can offer lower delay than AirPlay, depending on the device.
+- Music returns to the saved listening mode after calls or video. Automatic Video mode is optional in Settings; when enabled, supported playback including Rollside pauses Spotify and the room speaker, then restores them after playback stops.
+- More robust return intent, receiver-scoped volume history and microphone handling are included from the local 117–118 fixes.
 
-The guide pauses changes during calls, video, tuning and audio connection work. A disconnected main speaker or an unapplied output selection prevents finishing with an invalid setup. Selecting AirPlay in macOS keeps speaker discovery available so you can add it.
+## Verified on the development setup
 
-## What stays the same
+A Bluetooth Sonos Move and two Studio Displays passed audible Spotify start/track-change checks, muted Google Meet display-only playback, automatic Rollside Play/Pause switching, same-volume return, and a Move power cycle without pressing Connect/Pair or touching Onda. The owner confirmed all three returned with the same balance and no new distinct echo. This does not establish acoustic calibration for every speaker or Mac.
 
-Opening the guide does not apply a preset, switch outputs or reset measurements. Tone controls are personal preferences, not measured room correction. Existing measured room EQ and timing are retained; changed tone can bypass measured EQ. New acoustic measurements still require the iPhone companion and the supported Studio Display topology. Other groups use estimated/manual timing, with fine adjustments in Speakers → Manage speakers.
+## Settings, compatibility and installation
 
-Room speakers currently share Spotify audio. Calls and video use the main outputs. Up to four added speakers and one system AirPlay route are supported; a Sonos group counts as one output.
+Existing speaker assignments, levels, room maps and compatible tuning are retained. Original room EQ is saved and bypassed for an incompatible expanded topology; Bluetooth timing uses macOS estimates and manual adjustments. Microphone measurements still require the original supported setup. Positive added-speaker boosts are controlled on the Mac with the submitted iPhone companion; existing phone messages remain decodable.
 
-## Install and update
+The bundled driver remains 1.0.5 build 6. Existing users already on that driver do not need a driver update for these Mac app changes. The universal Mac download supports Apple silicon and Intel. Onda Room’s submitted iPhone build is unchanged.
 
-Universal Apple silicon and Intel download for macOS 14 or later; Spotify sharing needs macOS 14.2. Signed with Developer ID, notarized by Apple and stapled. The bundled audio driver is unchanged. New installations need administrator approval for the audio driver; existing users do not need a driver update for this guide.
+Existing updater-enabled installations receive this release through the signed feed. Automatic checks/downloads follow your settings; installation happens when Onda quits. Calls, video and tuning continue to postpone update checks and explicit restarts.
 
-Updater-enabled betas receive this through the signed feed. Updates download quietly and install on normal quit; recognized calls, video and tuning postpone checks. A deferred manual restart still requires a fresh click when idle. Beta 112 or earlier needs one manual installation to enable automatic updates. The iPhone app is separate and is not included in this Mac download.
-
-## Verification
-
-The existing source regression run passed 268 Swift tests, with zero failures and five environment-dependent skips. The final 45 focused tests passed, including four new guided-setup regressions, primary output safety, room speaker commands, native call detection and updater protections. Shared native setup views were rendered and reviewed in light and dark appearance with synthetic fixtures, without starting an audio engine or changing the development Mac's output. Universal signatures, notarization/staples, mounted contents and the actual public archive are checked before updating the signed feed. Fresh-machine installation and audible generic-speaker playback remain unverified.
+This is a public beta. Fresh-machine Bluetooth pairing and every speaker model have not been tested. Keep your normal Mac audio output available.
 ]]></description>
-            <enclosure url="https://github.com/SomaSam38/onda-releases/releases/download/v1.1.0-beta.116/Onda-1.1.0-beta.116-universal.dmg" length="6814909" type="application/octet-stream" sparkle:edSignature="Oc1rlJkElM2sbedhb36WRisZhgjLE5Jc68OBRY8jE4MbL7LN8NDwDJdOpivyus015NHZGjYoKUbVxpX3j+0dBw=="></enclosure>
+            <enclosure url="https://github.com/SomaSam38/onda-releases/releases/download/v1.1.0-beta.119/Onda-1.1.0-beta.119-universal.dmg" length="6860436" type="application/octet-stream" sparkle:edSignature="R9mJ5fcu9zspm7fZTpzPi977DVyuW1oj6iiwUrI1LE7InGqQVj6ifAj4qns5MRPQK43GK8TB9MLQnl+tTeZdAA=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: uMuXkEbtRnGXBxQZbvTb9UQCjAGnvmBUuGZ77SEyaE70HY0rWF8tuAuvashyg7zPw8+b7uPSDspRzduXITVWCw==
-length: 4379
+edSignature: nvniY8XC7uwcvAfeGJsTSAr1EtP88BaXsO/K6/c/or/4FG1IE+18IRBAbf3HmE7mDnptUpeOADGjzny+tSVbDg==
+length: 3651
 -->
