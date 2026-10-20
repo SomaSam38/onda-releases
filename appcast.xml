@@ -5,37 +5,29 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Onda</title>
         <item>
             <title>1.1.0</title>
-            <pubDate>Mon, 19 Oct 2026 15:00:44 +0100</pubDate>
+            <pubDate>Tue, 20 Oct 2026 15:18:33 +0100</pubDate>
             <link>https://onda-sound.sam633419.chatgpt.site</link>
-            <sparkle:version>120</sparkle:version>
+            <sparkle:version>121</sparkle:version>
             <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Onda for Mac — beta 120
+            <description sparkle:format="markdown"><![CDATA[# Onda for Mac 1.1.0 beta 121 — Apple Music
 
-## Guided audio-access recovery
+- Use Apple Music alongside Spotify: choose Automatic, Spotify or Apple Music on Listen.
+- See the current song, artist and album artwork, with Play/Pause, Previous and Next controls.
+- Include your saved room speakers in Room Fill for local Music playback.
+- Music pauses around recognized calls and supported video playback, then resumes when your saved listening route is ready. Music that was already paused stays paused.
+- A separate macOS Automation approval lets Onda read Music details and control playback. Retry in Onda requests the native approval; speaker settings and tuning are retained.
 
-- Onda now checks whether Spotify audio is actually reaching its room-speaker mixer, rather than treating a connected speaker or a successful audio-tap start as proof of playback.
-- If local music produces no captured signal for twelve seconds, a **Fix audio access** notice explains what to check. Silence can have other causes too; the app does not claim a definitive permission denial.
-- The guide covers audio-only permission, the stale approval that can follow a signing change, and macOS’s Quit & Reopen step. **Reconnect audio** rebuilds music sharing while keeping your speaker settings.
-- System Settings opens only when you choose it. Recovery actions are blocked during calls, video, microphone use and tuning; there is no automatic permission reset or app restart.
-- Missing Accessibility access now shows **Call access needed**, with an enable button in Settings.
+This universal Mac beta is signed, notarized and stapled. The audio driver remains 1.0.5 build 6; this update needs no new driver. Updates install on normal quit and keep existing settings.
 
-Speaker levels, output assignments, saved timing and room tuning are retained. Bluetooth and Wi-Fi room-speaker paths both have the signal check. No microphone access or recordings are added for music checks.
+Verified with local Music tracks, artwork and controls, a Bluetooth Sonos Move plus two Studio Displays, muted Google Meet calls, rejoining and Rollside playback/return. Apple Music subscription streams and every speaker configuration have not been verified. Protected or unauthorised tracks may need attention in Music itself.
 
-## Updating
-
-Existing installations with automatic updates enabled can download this release automatically; installation occurs when Onda quits. Use **Settings → Check for Updates** to check sooner. Calls and music are not forcibly restarted.
-
-The iPhone companion and its current App Store submission are unchanged. This release updates the direct-download Mac app only.
-
-## Validation
-
-287 regression tests (5 skipped, no failures), seven focused audio-access tests, DSP sanitizer checks, light/dark recovery views, Apple Silicon and Intel builds, plus live Spotify/reconnect checks on the development Mac. Missing/obsolete approvals are covered with synthetic silent-input tests; working Mac permissions were not revoked to simulate failure.
+The iPhone companion and its App Store submission are unchanged.
 ]]></description>
-            <enclosure url="https://github.com/SomaSam38/onda-releases/releases/download/v1.1.0-beta.120/Onda-1.1.0-beta.120-universal.dmg" length="6942307" type="application/octet-stream" sparkle:edSignature="0qy5PDCdskX+ibks/VHupzjbnGYv3R5NxNq26FG7X3PfaatOff3dKtBPB4mwFS1SOujE5WkmxFe9c59bk/QrCA=="></enclosure>
+            <enclosure url="https://github.com/SomaSam38/onda-releases/releases/download/v1.1.0-beta.121/Onda-1.1.0-beta.121-universal.dmg" length="7019747" type="application/octet-stream" sparkle:edSignature="Fko6gUVqzrJBsSclfWyHGZ1jd5rqx5wsAIgh4W6xoBCrbggM5bc1yZ+7ZvPKxgbKKT+QfXeBgVSns9EEcE26AA=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 1FEGdJd9zegImsM4w6KQC6W3pSJnL1ENrvEPplcCr/8nkEknt69viJKt1xGW8iEPgr1uBQtNBizxZ0br/A1AAg==
-length: 3113
+edSignature: P4odYvesZTOkXj4lDwQq4HKFcb6DhZ8BNvj4yJp4IMEbG1teWAQsWtsSQukssmzBcjAfqzO+ipZm0tUjdpR7CQ==
+length: 2449
 -->
