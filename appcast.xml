@@ -5,29 +5,28 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Onda</title>
         <item>
             <title>1.1.0</title>
-            <pubDate>Tue, 20 Oct 2026 15:18:33 +0100</pubDate>
+            <pubDate>Fri, 23 Oct 2026 10:15:35 +0100</pubDate>
             <link>https://onda-sound.sam633419.chatgpt.site</link>
-            <sparkle:version>121</sparkle:version>
+            <sparkle:version>124</sparkle:version>
             <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Onda for Mac 1.1.0 beta 121 — Apple Music
+            <description sparkle:format="markdown"><![CDATA[# Onda for Mac 1.1.0 beta 124 — Reliable call recovery
 
-- Use Apple Music alongside Spotify: choose Automatic, Spotify or Apple Music on Listen.
-- See the current song, artist and album artwork, with Play/Pause, Previous and Next controls.
-- Include your saved room speakers in Room Fill for local Music playback.
-- Music pauses around recognized calls and supported video playback, then resumes when your saved listening route is ready. Music that was already paused stays paused.
-- A separate macOS Automation approval lets Onda read Music details and control playback. Retry in Onda requests the native approval; speaker settings and tuning are retained.
+- Return to your saved listening mode after calls, including when Onda restarts during a muted Google Meet call.
+- Spotify resumes automatically after the call when Onda paused it and the same track is still eligible to resume. Apple Music uses the same recovery safeguards. Music already paused before the call stays paused.
+- Improve reconnection to paired Bluetooth room speakers after sleep or disconnection, and preserve their saved volume and balance.
+- Keep your speaker choices, individual levels, timing and room tuning when updating.
 
-This universal Mac beta is signed, notarized and stapled. The audio driver remains 1.0.5 build 6; this update needs no new driver. Updates install on normal quit and keep existing settings.
+This universal Mac beta is Developer ID signed, notarized and stapled. The audio driver remains 1.0.5 build 6; no driver update is needed. Automatic updates install when you quit Onda.
 
-Verified with local Music tracks, artwork and controls, a Bluetooth Sonos Move plus two Studio Displays, muted Google Meet calls, rejoining and Rollside playback/return. Apple Music subscription streams and every speaker configuration have not been verified. Protected or unauthorised tracks may need attention in Music itself.
+Verified with regression tests and a live muted Meet → Onda restart → leave call sequence, with Spotify resuming on two Studio Displays and a Bluetooth Sonos Move at the same balance. Bluetooth sleep/wake recovery was also tested. Apple Music shares the resume logic; its restart recovery was not separately tested live in this release. Detection and audio capture require the macOS permissions explained in Onda.
 
-The iPhone companion and its App Store submission are unchanged.
+The iPhone app and its App Store submission are unchanged.
 ]]></description>
-            <enclosure url="https://github.com/SomaSam38/onda-releases/releases/download/v1.1.0-beta.121/Onda-1.1.0-beta.121-universal.dmg" length="7019747" type="application/octet-stream" sparkle:edSignature="Fko6gUVqzrJBsSclfWyHGZ1jd5rqx5wsAIgh4W6xoBCrbggM5bc1yZ+7ZvPKxgbKKT+QfXeBgVSns9EEcE26AA=="></enclosure>
+            <enclosure url="https://github.com/SomaSam38/onda-releases/releases/download/v1.1.0-beta.124/Onda-1.1.0-beta.124-universal.dmg" length="7169636" type="application/octet-stream" sparkle:edSignature="hD78uUZ0LtKv4GV03O22/1ccXN0t6RqRnFGofph8RzE1G3GHy6EIrWahFO4alYI5uSM3Ey3JQGGSeZTcYblMAw=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: P4odYvesZTOkXj4lDwQq4HKFcb6DhZ8BNvj4yJp4IMEbG1teWAQsWtsSQukssmzBcjAfqzO+ipZm0tUjdpR7CQ==
-length: 2449
+edSignature: mYa0XJ5dg09zj3bsdXoTZiUzfqoO+ldzwJ+isGi2yjIrzEoBrDM+pEMDVOsatfhdtDPVrRFCfauaC/AEarHrAg==
+length: 2481
 -->
