@@ -5,28 +5,27 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Onda</title>
         <item>
             <title>1.1.0</title>
-            <pubDate>Fri, 23 Oct 2026 10:15:35 +0100</pubDate>
+            <pubDate>Sun, 25 Oct 2026 10:22:28 +0000</pubDate>
             <link>https://onda-sound.sam633419.chatgpt.site</link>
-            <sparkle:version>124</sparkle:version>
+            <sparkle:version>125</sparkle:version>
             <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Onda for Mac 1.1.0 beta 124 — Reliable call recovery
+            <description sparkle:format="markdown"><![CDATA[# Onda for Mac 1.1.0 beta 125 — Lighter everyday listening
 
-- Return to your saved listening mode after calls, including when Onda restarts during a muted Google Meet call.
-- Spotify resumes automatically after the call when Onda paused it and the same track is still eligible to resume. Apple Music uses the same recovery safeguards. Music already paused before the call stays paused.
-- Improve reconnection to paired Bluetooth room speakers after sleep or disconnection, and preserve their saved volume and balance.
-- Keep your speaker choices, individual levels, timing and room tuning when updating.
+- Reduce repeated audio-device reads and unnecessary settings writes during everyday listening.
+- Share audio observations within each polling cycle while keeping call, video and device-recovery checks fresh.
+- Keep your speaker choices, volume, balance, timing, tuning and automatic call/video switching when updating.
 
-This universal Mac beta is Developer ID signed, notarized and stapled. The audio driver remains 1.0.5 build 6; no driver update is needed. Automatic updates install when you quit Onda.
+This universal Mac beta supports Apple silicon and Intel. It is Developer ID signed, notarized and stapled. The audio driver remains 1.0.5 build 6; no driver update is needed. Automatic updates install when you quit Onda.
 
-Verified with regression tests and a live muted Meet → Onda restart → leave call sequence, with Spotify resuming on two Studio Displays and a Bluetooth Sonos Move at the same balance. Bluetooth sleep/wake recovery was also tested. Apple Music shares the resume logic; its restart recovery was not separately tested live in this release. Detection and audio capture require the macOS permissions explained in Onda.
+Validation: 355 Swift tests, including 350 passes and five existing fixture-dependent skips; no failures. Fable reviewed the efficiency changes and cleared installation after a recovery-cache issue was repaired. Live muted Google Meet and native video tests confirmed display-only playback and automatic Spotify/Office return with the same volume and balance. Rollside playback was not separately verified in this release.
 
 The iPhone app and its App Store submission are unchanged.
 ]]></description>
-            <enclosure url="https://github.com/SomaSam38/onda-releases/releases/download/v1.1.0-beta.124/Onda-1.1.0-beta.124-universal.dmg" length="7169636" type="application/octet-stream" sparkle:edSignature="hD78uUZ0LtKv4GV03O22/1ccXN0t6RqRnFGofph8RzE1G3GHy6EIrWahFO4alYI5uSM3Ey3JQGGSeZTcYblMAw=="></enclosure>
+            <enclosure url="https://github.com/SomaSam38/onda-releases/releases/download/v1.1.0-beta.125/Onda-1.1.0-beta.125-universal.dmg" length="7261436" type="application/octet-stream" sparkle:edSignature="9BEipML2DzC3NGS/WgTuuGRSe8DObVWzuMv9k5Zg8IapLWf+J9o7/BQKqAvNVZSgt9KWVdzpFtD4ZGOaqW06DQ=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: mYa0XJ5dg09zj3bsdXoTZiUzfqoO+ldzwJ+isGi2yjIrzEoBrDM+pEMDVOsatfhdtDPVrRFCfauaC/AEarHrAg==
-length: 2481
+edSignature: YE6wZoXRwbnWsMHn+3sO6GoNkt2vYkgRzZRetMVVw4Ux+mfGuQRVHUSMWJCaPSRRd/Hy1qtH8IFzvRlo01FNCA==
+length: 2303
 -->
