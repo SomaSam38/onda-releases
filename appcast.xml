@@ -5,27 +5,30 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>Onda</title>
         <item>
             <title>1.1.0</title>
-            <pubDate>Sun, 25 Oct 2026 10:22:28 +0000</pubDate>
+            <pubDate>Tue, 27 Oct 2026 08:00:16 +0000</pubDate>
             <link>https://onda-sound.sam633419.chatgpt.site</link>
-            <sparkle:version>125</sparkle:version>
+            <sparkle:version>127</sparkle:version>
             <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Onda for Mac 1.1.0 beta 125 — Lighter everyday listening
+            <description sparkle:format="markdown"><![CDATA[# Onda for Mac 1.1.0 beta 127 — Reliable startup and music recovery
 
-- Reduce repeated audio-device reads and unnecessary settings writes during everyday listening.
-- Share audio observations within each polling cycle while keeping call, video and device-recovery checks fresh.
-- Keep your speaker choices, volume, balance, timing, tuning and automatic call/video switching when updating.
+- Fix a crash that could freeze Onda's interface and later close the app when Spotify or Apple Music's audio processes changed.
+- Improve music recovery after overlapping calls and video, including when Onda restarts during an interruption. Music Onda paused resumes only when it is still eligible and the output is ready.
+- Preserve saved room-speaker levels in expanded Wi-Fi groups.
+- Keep your volume, individual speaker balance, timing, room tuning and automatic call/video switching when updating.
 
-This universal Mac beta supports Apple silicon and Intel. It is Developer ID signed, notarized and stapled. The audio driver remains 1.0.5 build 6; no driver update is needed. Automatic updates install when you quit Onda.
+This universal beta supports Apple silicon and Intel Macs. The app and installer are Developer ID signed, notarized and stapled. The bundled audio driver remains 1.0.5 build 6; no driver update is needed.
 
-Validation: 355 Swift tests, including 350 passes and five existing fixture-dependent skips; no failures. Fable reviewed the efficiency changes and cleared installation after a recovery-cache issue was repaired. Live muted Google Meet and native video tests confirmed display-only playback and automatic Spotify/Office return with the same volume and balance. Rollside playback was not separately verified in this release.
+With automatic updates enabled, Onda checks daily and downloads the update. Installation happens when you quit Onda. You can also use Settings → Check for Updates.
 
-The iPhone app and its App Store submission are unchanged.
+Validation: 367 Swift tests, with six fixture/environment skips and no failures. Astra independently reviewed the crash fix and its regression and runtime evidence. The original live crash was reproduced before the fix; the fixed release survived music-process changes and restart during playback. Live muted Google Meet and video checks on installed beta 127 confirmed display-only playback, then automatic Spotify and Bluetooth room-speaker return at the same volume and balance. Intel builds are verified by compilation and package validation; live listening was checked on Apple silicon.
+
+The iPhone app and its App Store release are unchanged.
 ]]></description>
-            <enclosure url="https://github.com/SomaSam38/onda-releases/releases/download/v1.1.0-beta.125/Onda-1.1.0-beta.125-universal.dmg" length="7261436" type="application/octet-stream" sparkle:edSignature="9BEipML2DzC3NGS/WgTuuGRSe8DObVWzuMv9k5Zg8IapLWf+J9o7/BQKqAvNVZSgt9KWVdzpFtD4ZGOaqW06DQ=="></enclosure>
+            <enclosure url="https://github.com/SomaSam38/onda-releases/releases/download/v1.1.0-beta.127/Onda-1.1.0-beta.127-universal.dmg" length="7273845" type="application/octet-stream" sparkle:edSignature="z9PsgEuL1Ru0oc8mehyZ2K+sr117zkXSLPZjaJr60fKrsLF0FuleDPQeRiCjoeXmdxKQ1mt16/xAEucwCJs+AQ=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: YE6wZoXRwbnWsMHn+3sO6GoNkt2vYkgRzZRetMVVw4Ux+mfGuQRVHUSMWJCaPSRRd/Hy1qtH8IFzvRlo01FNCA==
-length: 2303
+edSignature: 1Hy+Up3ZPRkMCgwymYFPnUiOFLC4AbK2wFPjJsGGU8L6FUoLJ5NqvV9wL6L2NipATO+SdMkFAgJUI5knSEDaCA==
+length: 2812
 -->
